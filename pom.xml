@@ -7,6 +7,14 @@
     <artifactId>demo</artifactId>
     <version>1.0.0</version>
 
+    <!-- Add Spring Boot Parent -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.2</version> <!-- Use the latest stable version -->
+        <relativePath/>
+    </parent>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
