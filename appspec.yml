@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-south-1:054037112535:task-definition/mytask:3"
+        LoadBalancerInfo:
+          ContainerName: "java-application"
+          ContainerPort: 8080
