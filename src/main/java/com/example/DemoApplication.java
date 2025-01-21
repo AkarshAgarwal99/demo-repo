@@ -18,6 +18,6 @@ public class DemoApplication {
 class DemoController {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from ECS!";
+        return "Hello from manoj";
     }
 }
